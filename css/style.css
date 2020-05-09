@@ -36,7 +36,7 @@ h4 {
   display: inline-block;
   padding: 12px 32px;
   border-radius: 15px;
-  background-color: #f8d92b;
+  background-color: #000000;
   color: #fff;
   display: flex;
   justify-content: center;
@@ -62,7 +62,7 @@ h4 {
   display: inline-block;
   padding: 10px 28px;
   border-radius: 25px;
-  background-color: #f8d92b;
+  background-color: #000000;
   color: #fff;
   display: flex;
   justify-content: center;
@@ -83,11 +83,11 @@ nav.navbar.navbar-expand-lg {}
 
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
   padding: 10px 20px;
-  color: #f8d92b;
+  color: #000000;
   text-align: center;
   text-transform: uppercase;
 }
-
+/* 000000 */
 
 
 a,
@@ -129,7 +129,7 @@ a:focus {
 .navbar-brand,
 .navbar-brand:hover {
   font-size: 30px;
-  color: #f8d92b;
+  color: #000000;
   font-weight: bold;
 }
 
@@ -178,7 +178,7 @@ a:focus {
   border: none;
   width: 2px;
   height: 125px;
-  background-color: #f8d92b;
+  background-color: #000000;
   margin: 35px 0;
 }
 
@@ -212,7 +212,7 @@ a:focus {
   width: 45px;
   height: 45px;
   border-radius: 100%;
-  background-color: #f8d92b;
+  background-color: #000000;
   opacity: 1;
   background-repeat: no-repeat;
   background-position: center center;
