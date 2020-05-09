@@ -102,6 +102,31 @@
     }
 }
 
+.tuftsU{
+  position: relative;
+  display: inline-block;
+
+}
+.tuftsU .off {
+  display: inline;
+  position: absolute;
+}
+.tuftsU .on {
+  display:inline;
+  top:0;
+  left:0;
+  z-index:99;
+}
+.tuftsU:hover .off{
+  opacity:0;
+  transition:.3s;
+}
+
+.tufts{
+  width:100px;
+  height:100px;
+}
+
 @media (max-width: 480px) {}
 
 @media (max-width: 400px) {}
