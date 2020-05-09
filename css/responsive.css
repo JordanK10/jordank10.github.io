@@ -9,18 +9,18 @@
         padding-bottom: 20px;
     }
 
-    .practice_box {
+    .interactive_box {
         margin: 100px 15px 0 15px;
         padding-bottom: 20px;
         transition: all .5s;
     }
 
-    .practice_box:hover {
+    .interactive_box:hover {
 
         transform: translateY(-90px);
     }
 
-    .practice_detail p {
+    .interactive_detail p {
         margin-top: 25px;
     }
 
@@ -91,12 +91,12 @@
         left: 52%;
     }
 
-    .practice_box {
+    .interactive_box {
         margin: 75px 15px 0 15px;
         transition: all .3s;
     }
 
-    .practice_box:hover {
+    .interactive_box:hover {
 
         transform: translateY(-60px);
     }

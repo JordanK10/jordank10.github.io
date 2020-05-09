@@ -260,14 +260,14 @@ a:focus {
 
 /* end about section */
 
-/* practice section */
-.practice_container {
+/* interactive section */
+.interactive_container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.practice_box {
+.interactive_box {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -277,16 +277,16 @@ a:focus {
   padding-bottom: 50px;
 }
 
-.practice_box:hover {
+.interactive_box:hover {
   transform: translateY(-150px);
   cursor: pointer;
 }
 
-.practice_box:hover .practice_img-box {
+.interactive_box:hover .interactive_img-box {
   background-color: #fddd33;
 }
 
-.practice_img-box {
+.interactive_img-box {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -298,15 +298,15 @@ a:focus {
 }
 
 
-.practice_box h4 {
+.interactive_box h4 {
   margin-top: 15px;
 }
 
-.practice_img-box img {
+.interactive_img-box img {
   width: 120px;
 }
 
-.practice_detail p {
+.interactive_detail p {
   margin-bottom: 55px;
   text-align: center;
 }
@@ -321,7 +321,7 @@ a:focus {
 
 
 
-/* end Practice section */
+/* end interactive section */
 
 /* welcome section */
 .welcome_section {
