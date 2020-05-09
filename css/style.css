@@ -126,6 +126,19 @@ a:focus {
   border: none;
 }
 
+table {
+  width: 100%;
+}
+
+td {
+  padding: 10px;
+}
+
+td.shrink {
+  white-space: nowrap;
+  width: 1px;
+}
+
 .navbar-brand,
 .navbar-brand:hover {
   font-size: 30px;
