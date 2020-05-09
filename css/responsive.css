@@ -102,22 +102,22 @@
     }
 }
 
-.tuftsU{
+.timeline_photo{
   position: relative;
   display: inline-block;
 
 }
-.tuftsU .off {
+.timeline_photo .off {
   display: inline;
   position: absolute;
 }
-.tuftsU .on {
+.timeline_photo .on {
   display:inline;
   top:0;
   left:0;
   z-index:99;
 }
-.tuftsU:hover .off{
+.timeline_photo:hover .off{
   opacity:0;
   transition:.3s;
 }
@@ -125,6 +125,16 @@
 .tufts{
   width:100px;
   height:100px;
+}
+
+.uc{
+  width:80px;
+  height:100px;"
+}
+
+.grfp{
+  width:190px;
+  height:80px;
 }
 
 @media (max-width: 480px) {}
