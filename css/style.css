@@ -538,9 +538,13 @@ td.shrink {
 }
 
 .timeline .tl-content {
-
   text-align: center;
-  width:200px;
+  width:235px;
+}
+
+.td{
+  padding-left:50px;
+
 }
 
 .timeline .tl-content-year {

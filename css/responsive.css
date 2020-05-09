@@ -104,6 +104,11 @@
 
 .timeline_photo{
 
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all  .3s ease-in-out;
+  -o-transition: all  .3s ease-in-out;
+  transition: all  .3s ease-in-out;
+  width:200px;
   position: relative;
   display: inline-block;
   color:black;
@@ -139,9 +144,9 @@
   opacity: 100%;
 }
 
-.timeline_photo img{
+/* .timeline_photo img{
   display: inline;
-}
+} */
 .timeline_photo .off {
   position: absolute;
 }
@@ -149,26 +154,30 @@
   z-index:90;
 }
 .timeline_photo:hover .off{
-
-  opacity:0;
-  transition:.3s;
-}
-
-.timeline_photo:hover {
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom:15px;
   -webkit-transition: all .3s ease-in-out;
   -moz-transition: all  .3s ease-in-out;
   -o-transition: all  .3s ease-in-out;
   transition: all  .3s ease-in-out;
+  opacity:0;
+}
+
+.timeline_photo:hover {
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all  .3s ease-in-out;
+  -o-transition: all  .3s ease-in-out;
+  transition: all  .3s ease-in-out;
+  width:230px;
+padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom:15px;
+  align:center;
   background-color: #454545;
   color:white;
   border-radius: 10px;
 
 }
-
-.fade:hober{
+.timeline_photo img {
   -webkit-transition: all .3s ease-in-out;
   -moz-transition: all  .3s ease-in-out;
   -o-transition: all  .3s ease-in-out;
