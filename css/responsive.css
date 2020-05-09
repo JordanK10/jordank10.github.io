@@ -111,6 +111,14 @@
   padding-right: 15px;
 }
 
+.top_container{
+  width:100%;
+  position:fixed;
+  background-color: white;
+  opacity: 90%;
+  z-index:99;
+}
+
 .timeline_photo img{
   display: inline;
 }
@@ -118,7 +126,7 @@
   position: absolute;
 }
 .timeline_photo .on {
-  z-index:99;
+  z-index:90;
 }
 .timeline_photo:hover .off{
   opacity:0;
