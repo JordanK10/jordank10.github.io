@@ -494,3 +494,46 @@ a:focus {
 }
 
 /* end footer section*/
+
+
+/*timeline*/
+.timeline th {
+  font-weight: normal;
+}
+
+.timeline table {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.timeline .tl-headers th {
+  /*border: 1px solid red;*/
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.timeline .tl-year {
+  font-weight: bold;
+}
+
+.timeline td {
+  vertical-align: top;
+}
+
+.timeline .tl-content {
+  padding: 8px 15px;
+  text-align: center;
+}
+
+.timeline .tl-content p {
+  margin: 10px 0;
+}
+
+.timeline .tl-line {
+  display:inline-block;
+  height: 100%;
+  border: 3px solid black;
+  border-radius: 3px;
+}
+/*end timeline*/
