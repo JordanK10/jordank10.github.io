@@ -107,7 +107,9 @@ a:focus {
   box-shadow: none;
 }
 
-.top_container {}
+.top_container {
+  padding-top:100px;
+}
 
 .top_container.sub_page {
   height: auto;

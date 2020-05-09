@@ -111,7 +111,8 @@
   padding-right: 15px;
 }
 
-.top_container{
+.header_container{
+  font-family: 'Poppins', sans-serif;
   width:100%;
   position:fixed;
   background-color: white;
