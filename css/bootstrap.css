@@ -4227,7 +4227,8 @@ input[type="button"].btn-block {
   border-radius: 0.25rem;
 }
 
-.navbar-toggler:hover, .navbar-toggler:focus {
+.navbar-toggler:hover,.navbar-toggler-icon, .navbar-toggler:focus {
+  color:white;
   text-decoration: none;
 }
 
@@ -4240,6 +4241,7 @@ input[type="button"].btn-block {
   background: no-repeat center center;
   background-size: 100% 100%;
 }
+
 
 @media (max-width: 575.98px) {
   .navbar-expand-sm > .container,

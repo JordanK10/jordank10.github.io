@@ -124,17 +124,13 @@ a:focus {
   background-position-y: 7px;
   width: 35px;
   height: 35px;
-  padding: 0;
+  padding: 0px;
   border: none;
 }
 
-table {
+/* table {
   width: 100%;
-}
-
-td {
-  padding: 10px;
-}
+} */
 
 td.shrink {
   white-space: nowrap;
@@ -510,6 +506,10 @@ td.shrink {
 
 /* end footer section*/
 
+.timeline {
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /*timeline*/
 .timeline th {
@@ -517,18 +517,19 @@ td.shrink {
 }
 
 .timeline table {
-  width: 100%;
   margin-bottom: 30px;
+  align-content:center;
 }
 
 .timeline .tl-headers th {
   /*border: 1px solid red;*/
-  padding: 10px;
+  /* padding: 10px; */
   font-weight: bold;
   text-align: center;
 }
 
 .timeline .tl-year {
+  width:50px;
   font-weight: bold;
 }
 
@@ -537,12 +538,15 @@ td.shrink {
 }
 
 .timeline .tl-content {
-  padding: 8px 15px;
+
   text-align: center;
+  width:200px;
 }
 
-.timeline .tl-content p {
-  margin: 10px 0;
+.timeline .tl-content-year {
+  /* padding: 8px 15px; */
+  text-align: left;
+  width:50px;
 }
 
 .timeline .tl-line {
@@ -554,7 +558,8 @@ td.shrink {
 /*end timeline*/
 
 .about-heading {
-  text-align: center;
+  padding-top: 50px;
+   text-align: center;
 }
 
 
