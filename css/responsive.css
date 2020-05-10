@@ -102,18 +102,7 @@
     }
 }
 
-.timeline_photo{
 
-  -webkit-transition: all .3s ease-in-out;
-  -moz-transition: all  .3s ease-in-out;
-  -o-transition: all  .3s ease-in-out;
-  transition: all  .3s ease-in-out;
-  width:200px;
-  position: relative;
-  display: inline-block;
-  color:black;
-
-}
 
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-link.nav-link:hover {
   -webkit-transition: all .3s ease-in-out;
@@ -144,14 +133,42 @@
   opacity: 100%;
 }
 
-/* .timeline_photo img{
-  display: inline;
-} */
-.timeline_photo .off {
-  position: absolute;
+.timeline_photo{
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all  .3s ease-in-out;
+  -o-transition: all  .3s ease-in-out;
+  transition: all  .3s ease-in-out;
+  display: inline-block;
+  color:black;
+}
+.timeline_photo:hover {
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all  .3s ease-in-out;
+  -o-transition: all  .3s ease-in-out;
+  transition: all  .3s ease-in-out;
+  /* width:230px; */
+  padding: 15px 15px 15px 15px;
+  align:center;
+  background-color: #454545;
+  color:white;
+  border-radius: 10px;
+}
+
+.tl_photos{
+  display:inline-block;
+  position:relative;
+  right:50px;
+  max-width:300px;
+max-height:300px;
+}
+.timeline_photo .off{
+position:absolute;
+z-index:3;
 }
 .timeline_photo .on {
-  z-index:90;
+margin-right: auto;
+position:absolute;
+  z-index:1;
 }
 .timeline_photo:hover .off{
   -webkit-transition: all .3s ease-in-out;
@@ -161,24 +178,12 @@
   opacity:0;
 }
 
-.timeline_photo:hover {
-  -webkit-transition: all .3s ease-in-out;
-  -moz-transition: all  .3s ease-in-out;
-  -o-transition: all  .3s ease-in-out;
-  transition: all  .3s ease-in-out;
-  width:230px;
-padding-top: 15px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom:15px;
-  align:center;
-  background-color: #454545;
-  color:white;
-  border-radius: 10px;
-
+.timeline_photo p{
+  margin-bottom:0px;
 }
+
 .timeline_photo img {
-  -webkit-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
   -moz-transition: all  .3s ease-in-out;
   -o-transition: all  .3s ease-in-out;
   transition: all  .3s ease-in-out;
