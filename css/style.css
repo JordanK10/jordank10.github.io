@@ -249,17 +249,29 @@ td.shrink {
 
 .carousel-control-prev:hover,
 .carousel-control-next:hover {
-  background-color: #e56e30;
+  background-color: #29115b;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all  .3s ease-in-out;
+  -o-transition: all  .3s ease-in-out;
+  transition: all  .3s ease-in-out;
 }
 
 
 
 .carousel-control-prev {
+  -webkit-transition: all .3s ease-in-out;
+-moz-transition: all  .3s ease-in-out;
+-o-transition: all  .3s ease-in-out;
+transition: all  .3s ease-in-out;
   background-image: url(../images/left-arrow.png);
   left: 45px;
 }
 
 .carousel-control-next {
+  -webkit-transition: all .3s ease-in-out;
+-moz-transition: all  .3s ease-in-out;
+-o-transition: all  .3s ease-in-out;
+transition: all  .3s ease-in-out;
   background-image: url(../images/right-arrow.png);
   left: 95px;
 }
