@@ -157,7 +157,6 @@
 .tl_photos{
   display:inline-block;
   position:relative;
-  right:50px;
   max-width:300px;
 max-height:300px;
 }
