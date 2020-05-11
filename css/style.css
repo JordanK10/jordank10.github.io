@@ -181,8 +181,7 @@ td.shrink {
 .hero_section-container {
   width: 80%;
   margin: 0 auto;
-  display: flex;
-  align-items: center;
+
 }
 
 .number-container {
@@ -209,17 +208,26 @@ td.shrink {
 }
 
 .hero_section-container .hero_img-box {
-  width: 42%;
-  margin-top: -45px;
+  float:left;
+  width: 40%;
+  height:100
+  /* margin-top: 45px; */
+}
+
+.hero_detail-box{
+  display: flex;
+  align-items: center;
 }
 
 .hero_section-container .hero_img-box img {
   width: 100%;
+  height:100%;
 }
 
-.hero_section-container .hero_detail-box {
-  width: 58%;
 
+.hero_detail-container{
+  float:left;
+  width:50%
 }
 
 .hero_section-container .hero_detail-box .hero_detail-container {
@@ -653,4 +661,10 @@ transition: all  .3s ease-in-out;
 .psd{
   width:115px;
   height:115px;
+}
+
+.rw_img{
+  margin-top: 4.8em;
+  height:617px;
+  width:540px;
 }
