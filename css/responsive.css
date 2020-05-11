@@ -140,18 +140,17 @@
   transition: all  .3s ease-in-out;
   display: inline-block;
   color:black;
+  padding: 15px;
+  border-radius: 10px;
 }
 .timeline_photo:hover {
   -webkit-transition: all .3s ease-in-out;
   -moz-transition: all  .3s ease-in-out;
   -o-transition: all  .3s ease-in-out;
   transition: all  .3s ease-in-out;
-  /* width:230px; */
-  padding: 15px 15px 15px 15px;
   align:center;
   background-color: #343434;
   color:white;
-  border-radius: 10px;
 }
 
 .tl_photos{
