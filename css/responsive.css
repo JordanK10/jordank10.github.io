@@ -110,7 +110,7 @@
   -o-transition: all  .3s ease-in-out;
   transition: all  .3s ease-in-out;
   padding: 10px 20px;
-  background-color: #454545;
+  background-color: #3d286b;
   opacity:100%;
   color: white;
   text-align: center;
@@ -149,7 +149,7 @@
   /* width:230px; */
   padding: 15px 15px 15px 15px;
   align:center;
-  background-color: #454545;
+  background-color: #343434;
   color:white;
   border-radius: 10px;
 }
@@ -191,6 +191,9 @@ left:0;
   transition: all  .3s ease-in-out;
 }
 
+.link:hover{
+  color:#29115b;
+}
 
 @media (max-width: 480px) {}
 
