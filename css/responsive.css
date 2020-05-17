@@ -117,6 +117,10 @@
   text-transform: uppercase;
 }
 
+.profile_photo{
+  border-radius:20px;
+}
+
 .header_container{
   -webkit-transition: all .3s ease-in-out;
   -moz-transition: all  .3s ease-in-out;
