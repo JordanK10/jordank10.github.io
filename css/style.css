@@ -1,3 +1,19 @@
+.row {
+  display: flex;
+}
+
+.columnl {
+  flex: 75%;
+}
+.columnr {
+  flex: 25%;
+}
+
+.papertitle {
+  font-weight: bold;
+  font-size: 16px;
+}
+
 body {
   font-family: 'Caudex', sans-serif;
   color: #000205;
@@ -635,6 +651,11 @@ transition: all  .3s ease-in-out;
   height:100px;
 }
 
+.pnaslearn{
+  width:134px;
+  height:124px;"
+}
+
 .uc{
   width:80px;
   height:100px;"
@@ -643,6 +664,16 @@ transition: all  .3s ease-in-out;
 .grfp{
   width:190px;
   height:80px;
+}
+
+.physaineq{
+  width:134px;
+  height:124px;"
+}
+
+.spec{
+  width:138px;
+  height:117px;"
 }
 
 .bern{

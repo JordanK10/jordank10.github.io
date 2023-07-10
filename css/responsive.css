@@ -121,6 +121,32 @@
   border-radius:20px;
 }
 
+
+.hide {
+  opacity: 0;
+  height:0;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all  .3s ease-in-out;
+  -o-transition: all  .3s ease-in-out;
+  transition: all  .3s ease-in-out;
+  overflow:hidden;
+}
+
+.preHover:hover + .hide{
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all  .3s ease-in-out;
+  -o-transition: all  .3s ease-in-out;
+  transition: all  .3s ease-in-out;
+  align:center;
+  background-color: #919191;
+  color:white;
+  opacity: 1;
+  height: auto;
+  padding: 20px;
+  padding-left: 30px;
+
+}
+
 .header_container{
   -webkit-transition: all .3s ease-in-out;
   -moz-transition: all  .3s ease-in-out;
@@ -144,10 +170,10 @@
   transition: all  .3s ease-in-out;
   display: inline-block;
   color:black;
-  padding: 15px;
-  border-radius: 10px;
+  padding: 20px;
+  padding-left: 30px;
 }
-.timeline_photo:hover {
+.timeline_photo:hover{
   -webkit-transition: all .3s ease-in-out;
   -moz-transition: all  .3s ease-in-out;
   -o-transition: all  .3s ease-in-out;
@@ -161,7 +187,7 @@
   display:inline-block;
   position:relative;
   max-width:300px;
-max-height:300px;
+  max-height:300px;
 }
 
 .timeline_photo .off{
