@@ -1,4 +1,4 @@
-.row {
+.row_research {
   display: flex;
 }
 
@@ -140,6 +140,7 @@ a:focus {
 
 .top_container {
   padding-top:100px;
+  padding-left: 20px;
 }
 
 .top_container.sub_page {
