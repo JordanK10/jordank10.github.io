@@ -176,6 +176,12 @@ td.shrink {
   font-weight: bold;
 }
 
+.orange{
+ background-color: #e0895d;
+ height: 5px;
+ width: 300px;
+ margin-left:0
+}
 
 
 .custom_nav-container {
