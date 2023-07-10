@@ -178,13 +178,14 @@ td.shrink {
 
 .orange{
  background-color: #e0895d;
- height: 5px;
+ height: 1px;
  width: 300px;
  margin-left:0
 }
 
 .line_header{
   font-size: 20px;
+  /* color: #29115b; */
   color: #29115b;
   /* background: #29115b; */
   padding-right: 5px;
@@ -206,8 +207,8 @@ a:visited {
 }
 
 .orange_mini{
- background-color: #e0895d;
- height: 3px;
+ background-color: #29115b;
+ height: .1px;
  width: 200px;
  margin-left:0
 }
