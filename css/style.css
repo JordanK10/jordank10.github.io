@@ -11,7 +11,7 @@
 
 .papertitle {
   font-weight: bold;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 body {
@@ -184,7 +184,7 @@ td.shrink {
 }
 
 .line_header{
-  font-size: 20px;
+  font-size: 28px;
   /* color: #29115b; */
   color: #29115b;
   /* background: #29115b; */
@@ -354,6 +354,12 @@ transition: all  .3s ease-in-out;
 }
 
 .about_detail-box p {
+  font-size: 22px;
+
+}
+
+.about_detail-box em {
+  font-size: 22px;
 
 }
 
