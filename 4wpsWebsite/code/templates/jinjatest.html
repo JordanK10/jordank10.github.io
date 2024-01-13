@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+        <script src="http://cdn.bokeh.org/bokeh/release/bokeh-0.12.14.min.js"></script>
+        <script src="http://cdn.bokeh.org/bokeh/release/bokeh-widgets-0.12.14.min.js"></script>
+        <link href="http://cdn.bokeh.org/bokeh/release/bokeh-0.12.14.min.css" rel="stylesheet" type="text/css">
+        <link href="http://cdn.bokeh.org/bokeh/release/bokeh-widgets-0.12.14.min.css" rel="stylesheet" type="text/css">
+
+<html lang="en">
+<head>
+    <title>My Webpage</title>
+</head>
+<body>
+  <button onclick="showContent()">Show content</button>
+
+<template>
+  <h2>Flower</h2>
+
+</template>
+  <div>
+    <script id="1129">
+      var xhr = new XMLHttpRequest()
+      xhr.responseType = 'blob';
+      xhr.open('GET', "http://localhost:5006/main/autoload.js?bokeh-autoload-element=1129&bokeh-app-path=/main&bokeh-absolute-url=http://localhost:5006/main", true);
+
+      xhr.onload = function (event) {
+        var script = document.createElement('script'),
+        src = URL.createObjectURL(event.target.response);
+        script.src = src;
+        document.body.appendChild(script);
+      };
+    xhr.send();
+    </script>
+  </div>
+    <h1>My Webpage</h1>
+
+</body>
+</html>
