@@ -1,3 +1,14 @@
+@font-face {
+  font-family: 'Avenir'; /* Name your font family */
+  src: url('av/avl/avl.ttf') format('truetype'); /* Locate the .ttf file within your directory */
+}
+
+body {
+  font-family: 'Avenir', sans-serif;
+  color: #3D3D3D;
+  background-color: #6E6E6E;
+}
+
 .row_research {
   display: flex;
 }
@@ -14,12 +25,13 @@
   font-size: 20px;
 }
 
-body {
-  font-family: 'Caudex', sans-serif;
-  color: #000205;
+
+/* about section */
+.about_section {
+  background-color: #FFF1DF;
+
+/* FFF1DF */
 }
-
-
 
 h1,
 h2,
@@ -105,7 +117,11 @@ h4 {
 
 /*header section*/
 .top_container {
-  font-family: 'caudex', sans-serif;
+  font-family: 'Avenir', sans-serif;
+}
+.about_detail-box p {
+  font-size: 32px;
+
 }
 
 .header_section {}
@@ -114,7 +130,7 @@ nav.navbar.navbar-expand-lg {}
 
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
   padding: 10px 20px;
-  color: #000000;
+  color: #3D3D3D;
   text-align: center;
   text-transform: uppercase;
 }
@@ -256,7 +272,7 @@ a:visited {
   border: none;
   width: 2px;
   height: 125px;
-  background-color: #000000;
+  background-color: #6E6E6E;
   margin: 35px 0;
 }
 
@@ -339,11 +355,7 @@ transition: all  .3s ease-in-out;
 
 /* end hero section */
 
-/* about section */
-.about_section {
-  background-color: #f8faf9;
 
-}
 
 .about_section .row {
   align-items: center;
@@ -351,11 +363,6 @@ transition: all  .3s ease-in-out;
 
 .about_img-box img {
   width: 100%;
-}
-
-.about_detail-box p {
-  font-size: 22px;
-
 }
 
 .about_detail-box em {
@@ -448,7 +455,7 @@ transition: all  .3s ease-in-out;
 
 .welcome_container h4,
 .welcome_container p {
-  font-family: 'caudex', sans-serif;
+  font-family: 'Avenir', sans-serif;
 }
 
 .welcome_section::before {
@@ -524,7 +531,7 @@ transition: all  .3s ease-in-out;
 
 .info_logo h2 {
   color: #f69c00;
-  font-family: 'caudex', sans-serif;
+  font-family: 'Avenir', sans-serif;
 }
 
 .info_section .col-md-4 {
@@ -583,9 +590,9 @@ transition: all  .3s ease-in-out;
 /* footer section*/
 
 .footer_section {
-  background-color: #fdfdfe;
+  background-color: #FFF1DF;
   padding: 20px 0;
-  font-family: 'caudex', sans-serif;
+  font-family: 'Avenir', sans-serif;
 }
 
 .footer_section p {
@@ -758,4 +765,10 @@ transition: all  .3s ease-in-out;
   margin-top: 4.8em;
   height:617px;
   width:540px;
+}
+
+.limited-image {
+    max-width: 100%; /* Limits the image to the width of its container */
+    max-height: 400px; /* Limits the image to a maximum height of 300 pixels */
+    border: 3px solid #3D3D3D
 }
