@@ -1,0 +1,86 @@
+/* Summary Panels Styles */
+.summary-panels {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.summary-panel {
+    transition: transform 0.3s ease;
+}
+
+.summary-panel:hover {
+    transform: translateY(-5px);
+}
+
+.panel-image {
+    width: 100%;
+    height: 300px;  /* Set a fixed height */
+    overflow: hidden;  /* Ensure nothing spills out */
+}
+
+.panel-image img {
+    height: 110%;
+    object-fit: cover;  /* This will crop and scale the image to fill the container */
+}
+
+.panel-content {
+    
+}
+
+.panel-content h3 {
+    color: #333;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.panel-content p {
+    color: #666;
+    font-size: 1rem;
+    line-height: 1.6;
+    font-family: 'Roboto', sans-serif;
+}
+
+.panel-content ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.panel-content li:before {
+    content: "";
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .summary-panel {
+        padding: 0rem 0;
+    }
+    
+    
+    .panel-image {
+        height: 100%;  /* Slightly smaller height on mobile */
+    }
+
+}
+
+.summary-panels-wrapper {
+    background-color: #F3E6D5;  /* This matches the navbar color - adjust if needed */
+    width: 100%;
+
+}
+
+.summary-panels {
+    
+    color: #3D3D3D;  /* Making text white to contrast with dark background */
+}
+
+.summary-panels .panel-content h3 {
+    margin-top:1em;
+    color: #3D3D3D;
+}
+
+.summary-panels .panel-content p {
+    color: #3D3D3D;
+} 

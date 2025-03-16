@@ -6,7 +6,7 @@
 body {
   font-family: 'Avenir', sans-serif;
   color: #3D3D3D;
-  background-color: #6E6E6E;
+  background-color: #FFF1DF;
 }
 
 .row_research {
@@ -120,7 +120,7 @@ h4 {
   font-family: 'Avenir', sans-serif;
 }
 .about_detail-box p {
-  font-size: 25px;
+  font-size: 18px;
 
 }
 
@@ -200,7 +200,7 @@ td.shrink {
 }
 
 .line_header{
-  font-size: 28px;
+  font-size: 22px;
   /* color: #29115b; */
   color: #29115b;
   /* background: #29115b; */
@@ -362,7 +362,7 @@ transition: all  .3s ease-in-out;
 }
 
 .about_img-box img {
-  width: 100%;
+  width: 75%;
   padding: 10px; /* Adjust buffer size */
   background-color: #F3E6D5;/*%Buffer color*/
 }
@@ -720,12 +720,19 @@ transition: all  .3s ease-in-out;
 
 .physaineq{
   width:148px;
-  height:138px;"
+  height:138px;
 }
 
 .spec{
-  width:172px;
-  height:146px;"
+  width:210px;
+  height:178px;
+  padding:10px;
+}
+
+.spec2{
+  width:355px;
+  height:194px;
+  padding:10px;
 }
 
 .bern{
