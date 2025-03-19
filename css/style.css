@@ -3,6 +3,16 @@
   src: url('av/avl/avl.ttf') format('truetype'); /* Locate the .ttf file within your directory */
 }
 
+body, 
+.about_detail-box,
+.timeline_photo,
+.papertitle,
+.dropdown_content,
+.row_research,
+.navbar-nav {
+    font-family: 'Avenir', sans-serif;
+}
+
 body {
   font-family: 'Avenir', sans-serif;
   color: #3D3D3D;
@@ -23,7 +33,7 @@ body {
 
 .papertitle {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1.25em;
   color: #3D3D3D;
 }
 
@@ -924,5 +934,33 @@ ul[style*="font-size: small"] {
 }
 
 .timeline_photo {
+  font-family: 'Avenir', sans-serif;
   color: #3D3D3D;
+  padding: 20px;
+  padding-left: 30px;
+  max-width: 824px;
+  transition: all 0.3s ease;  /* Smooth transition for color changes */
+}
+
+/* Update hover styles */
+.hover_drop:hover .timeline_photo {
+  background-color: #969696;
+  color: white;
+}
+
+/* Make sure all text inside turns white on hover */
+.hover_drop:hover .timeline_photo * {
+  color: white;
+}
+
+/* Keep the transition smooth for all elements */
+.timeline_photo,
+.timeline_photo *,
+.hover_drop .timeline_photo {
+  transition: all 0.3s ease;
+}
+
+.dropdown_content {
+  font-family: 'Avenir', sans-serif;
+  font-size: 1.125em;  /* 18px converted to em */
 }
