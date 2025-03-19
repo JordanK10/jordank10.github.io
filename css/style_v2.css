@@ -1,4 +1,9 @@
 /* Summary Panels Styles */
+@font-face {
+  font-family: 'Avenir'; /* Name your font family */
+  src: url('av/avl/avl.ttf') format('truetype'); /* Locate the .ttf file within your directory */
+}
+
 .summary-panels {
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -25,20 +30,20 @@
 }
 
 .panel-content {
-
+    color: #3D3D3D;
 }
 
 .panel-content h3 {
-    color: #333;
-    font-size: 1rem;
+    color: #3D3D3D;
+    font-size: 20px;;
     margin-bottom: 1rem;
     font-family: 'Avenir', sans-serif;
     font-weight: 600;
 }
 
 .panel-content p {
-    color: #666;
-    font-size: 1rem;
+    color: #3D3D3D;
+    font-size: 18px;
     line-height: 1.6;
     font-family: 'Avenir', sans-serif;
 }

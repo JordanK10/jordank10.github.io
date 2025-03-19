@@ -11,6 +11,7 @@ body {
 
 .row_research {
   display: flex;
+  color: #3D3D3D;
 }
 
 .columnl {
@@ -23,6 +24,7 @@ body {
 .papertitle {
   font-weight: bold;
   font-size: 20px;
+  color: #3D3D3D;
 }
 
 
@@ -120,8 +122,7 @@ h4 {
   font-family: 'Avenir', sans-serif;
 }
 .about_detail-box p {
-  font-size: 18px;
-
+  font-size: 1.125em;
 }
 
 .header_section {}
@@ -187,8 +188,8 @@ td.shrink {
 
 .navbar-brand,
 .navbar-brand:hover {
-  font-size: 30px;
-  color: #000000;
+  font-size: 1.875em;
+  color: #3D3D3D;
   font-weight: bold;
 }
 
@@ -200,7 +201,7 @@ td.shrink {
 }
 
 .line_header{
-  font-size: 22px;
+  font-size: 1.375em;
   /* color: #29115b; */
   color: #29115b;
   /* background: #29115b; */
@@ -361,10 +362,18 @@ transition: all  .3s ease-in-out;
   align-items: center;
 }
 
+.about_img-box {
+  display: flex;
+  justify-content: center;  /* Center horizontally */
+  align-items: center;
+  height: 100%;
+  padding: 0 15%;  /* Add horizontal padding to constrain width */
+}
+
 .about_img-box img {
-  width: 75%;
-  padding: 10px; /* Adjust buffer size */
-  background-color: #F3E6D5;/*%Buffer color*/
+  width: 100%;  /* Fill the padded container width */
+  height: auto;
+  display: block;
 }
 
 .about_detail-box em {
@@ -598,13 +607,13 @@ transition: all  .3s ease-in-out;
 }
 
 .footer_section p {
-  color: #000;
+  color: #3D3D3D;
   margin: 0;
   text-align: center;
 }
 
 .footer_section a {
-  color: #000;
+  color: #3D3D3D;
 }
 
 /* end footer section*/
@@ -654,7 +663,7 @@ transition: all  .3s ease-in-out;
   /* padding: 8px 15px; */
   text-align: left;
   width:50px;
-  color: #000000
+  color: #3D3D3D;
 }
 
 .timeline .tl-year-text {
@@ -665,7 +674,7 @@ transition: all  .3s ease-in-out;
 .timeline .tl-year-text-h span {
   position: absolute;
   top: 10px;
-  border: 1px solid black;
+  border: 1px solid #3D3D3D;
   border-radius: 1px;
   opacity: 0.07;
   width: 100%;
@@ -687,7 +696,7 @@ transition: all  .3s ease-in-out;
 .timeline .tl-line {
   display:inline-block;
   height: 100%;
-  border: 3px solid black;
+  border: 3px solid #3D3D3D;
   border-radius: 3px;
 }
 /*end timeline*/
@@ -703,14 +712,14 @@ transition: all  .3s ease-in-out;
   height:100px;
 }
 
-.pnaslearn{
-  width:134px;
-  height:124px;"
+.pnaslearn {
+  width: 134px;
+  height: 124px;
 }
 
-.uc{
-  width:80px;
-  height:100px;"
+.uc {
+  width: 80px;
+  height: 100px;
 }
 
 .grfp{
@@ -780,4 +789,140 @@ transition: all  .3s ease-in-out;
     max-width: 100%; /* Limits the image to the width of its container */
     max-height: 400px; /* Limits the image to a maximum height of 300 pixels */
     border: 3px solid #3D3D3D
+}
+
+/* Summary Panels Styles (merged from style_v2.css) */
+.summary-panels {
+
+    width: 100%;
+}
+
+.summary-panel {
+    transition: transform 0.3s ease;
+}
+
+.summary-panel:hover {
+    transform: translateY(-5px);
+}
+
+.panel-image {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    margin: 0;
+}
+
+.panel-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  /* Cover the space */
+    object-position: center;  /* Center the image */
+    position: absolute;  /* Position within container */
+    top: 50%;  /* Center vertically */
+    left: 50%;  /* Center horizontally */
+    transform: translate(-50%, -50%);  /* Complete the centering */
+}
+
+.panel-content {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.panel-content h3 {
+    color: #3D3D3D;
+    font-size: 1.25em;
+    margin-bottom: 1rem;
+    font-family: 'Avenir', sans-serif;
+    font-weight: 600;
+}
+
+.panel-content p {
+    color: #3D3D3D;
+    font-size: 1.125em;
+    line-height: 1.6;
+    font-family: 'Avenir', sans-serif;
+}
+
+.panel-content ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.panel-content li:before {
+    content: "";
+}
+
+.summary-panels-wrapper {
+    background-color: #F3E6D5;
+    width: 100%;
+}
+
+.summary-panels-wrapper .container {
+    padding-left: 0;
+    padding-right: 0;
+
+}
+
+.summary-panels {
+    color: #3D3D3D;
+}
+
+.summary-panels .panel-content h3 {
+    margin-top: 1em;
+    color: #3D3D3D;
+}
+
+.summary-panels .panel-content p {
+    color: #3D3D3D;
+}
+
+/* Make rows equal height and top-align content */
+.summary-panels .row {
+    display: flex;
+    align-items: stretch;
+    margin: 0;
+}
+
+.summary-panels .col-md-4 {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+/* Remove any bottom margin from last element in panel-content */
+.panel-content > *:last-child {
+    margin-bottom: 0;
+}
+
+/* Responsive adjustments for panels */
+@media (max-width: 768px) {
+    .summary-panel {
+        padding: 0rem 0;
+    }
+
+    .panel-image {
+        height: 100%;
+    }
+}
+
+/* Small text styles */
+h3 i {
+    font-size: 0.875em !important;
+}
+
+ul[style*="font-size: small"] {
+    font-size: 0.875em !important;
+}
+
+.about_detail-box {
+  color: #3D3D3D;
+}
+
+.timeline_photo {
+  color: #3D3D3D;
 }
