@@ -11,6 +11,11 @@
   --panel-bg: #F3E6D5;
   --hover-gray: #969696;
 }
+.info_subheader{
+  font-size: 25px;
+  font-family: "Avenir", sans-serif;
+}
+
 
 body {
   font-family: 'Avenir', sans-serif;
@@ -152,10 +157,13 @@ h4 {
 nav.navbar.navbar-expand-lg {}
 
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
-  padding: 6px 20px;
+  padding: 10px 20px;
   color: var(--text-color);
+  font-size: 1.15em;
   text-align: center;
   text-transform: uppercase;
+  transition: all .3s ease;
+  background-color: transparent;
 }
 /* f8d92b */
 
@@ -1051,7 +1059,28 @@ ul[style*="font-size: small"] {
   font-size: 1.125em;
   width: 100%;
   box-sizing: border-box;
-  padding: 1rem;
+  padding: 0;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+  background-color: var(--accent-color);
+  transform-origin: top;
+  transform: scaleY(0);
+  max-width: inherit;
+}
+
+.hover_drop {
+  position: relative;
+  max-width: 824px;
+}
+
+.hover_drop:hover .dropdown_content {
+  padding: 1.5rem;
+  max-height: 1000px;
+  opacity: 1;
+  transform: scaleY(1);
+  width: 100%;
 }
 
 .research-title {
@@ -1084,13 +1113,13 @@ ul[style*="font-size: small"] {
 /* Base styles */
 body {
     font-family: 'Avenir', sans-serif;
-    color: #3D3D3D;
-    background-color: #FFF1DF;
+    color: var(--text-color);
+    background-color: var(--bg-color);
 }
 
 /* Typography */
-h1, h2, h3, h4 {
-    font-weight: bold;
+h1, h2, h3, h4, p, div, span, a, li, td, th, input, button {
+    font-family: 'Avenir', sans-serif;
 }
 
 /* Colors */

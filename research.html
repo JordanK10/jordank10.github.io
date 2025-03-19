@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
   <head>
     <!-- Basic -->
@@ -8,13 +8,11 @@
     <!-- Mobile Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <!-- Site Metas -->
-    <meta name="keywords" content="" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
+    <meta name="keywords" content="academic research, scientific publications, complex systems research, economic inequality, wealth dynamics, information theory, Bayesian learning, statistical physics, PNAS publications, Physical Review, academic papers, scientific articles, complexity science, economic growth, social systems, environmental policy, Oxford research, INET publications, academic citations, research portfolio, scientific contributions" />
+    <meta name="description" content="Jordan Kemp's research portfolio at Oxford INET - Publications in PNAS Nexus, Physical Review, and leading journals. Groundbreaking work on wealth dynamics, information theory, and complex systems. Research focuses on economic inequality, social learning, and environmental adaptation using statistical physics approaches." />
+    <meta name="author" content="Jordan Kemp" />
 
     <title>Jordan Kemp | Complex Systems</title>
-
-
 
     <!-- bootstrap core css -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
@@ -26,14 +24,21 @@
     <!-- responsive style -->
     <link href="css/responsive.css" rel="stylesheet" />
 
-
-
-
     <link rel="stylesheet" href="css/css-circular-prog-bar.css">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
   </head>
   <body>
+
+    <script type="text/javascript">
+      $(document).ready(function() {
+        desWidth = $(".timeline").width();
+        desWidth = desWidth - $(".timeline .tl-year-text").width();
+        $(".timeline .tl-year-text span").css({
+          'width': desWidth + 'px'
+        })
+      });
+    </script>
     <div class="header_container">
       <!-- header section strats -->
       <header class="header_section">
@@ -41,8 +46,8 @@
           <nav class="navbar navbar-expand-lg custom_nav-container ">
             <a class="navbar-brand" href="index.html">
               JTK
+              <img src="images/LatticeBanner.png" alt="Lattice Banner" width="71" height="36">
             </a>
-            <img src="images/LatticeBanner.png" alt="" style="width:71px;height:36px;">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
               aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -51,40 +56,42 @@
               <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
                 <ul class="navbar-nav  ">
                   <li class="nav-item active">
-                    <a class="nav-link" href="index.html"> about <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.html"> About <span class="sr-only">(current)</span></a>
                   </li>
-
+  
                   <li class="nav-item">
-                    <a class="nav-link" href="research.html"> research  </a>
+                    <a class="nav-link" href="research.html"> research </a>
                   </li>
-                   <li class="nav-item">
+                  <li class="nav-item">
                     <a class="nav-link" href="talks.html"> Talks </a>
                   </li>
-
+  
                   <!-- <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact</a>
                   </li> -->
-
+  
                   <li class="nav-item">
                     <a class="nav-link" href="projects.html">projects</a>
                   </li>
-
+  
                 </ul>
-
+  
               </div>
-              </nav>
-            </div>
+          </nav>
         </div>
-
       </header>
+  
     </div>
+    <!-- end header section -->
+  
+  
     <!-- end header section -->
 
       <!-- about section -->
     <section class="top_container about_section ">
         <div class="container">
           <div class="row">
-            <br><b><span style="font-size:25px">Recent Publications </span></b>
+            <br><b><span class="info_subheader">Recent Publications </span></b>
           </div>
           <hr class="orange">
           <div class="row">
@@ -184,7 +191,7 @@
           </div>
           <br>
           <div class="row">
-            <b><span style="font-size:25px">Working Papers </span></b>
+            <b><span class="info_subheader">Working Papers </span></b>
           </div>
           <hr class="orange">
           <div class="row">
@@ -220,7 +227,7 @@
           </div>
           <br>
           <div class="row">
-            <b><span style="font-size:25px">Previous Research </span></b>
+            <b><span class="info_subheader">Previous Research </span></b>
           </div>
           <hr class="orange">
           <div class="row"> 

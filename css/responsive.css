@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'Avenir'; /* Name your font family */
+  src: url('av/avl/avl.ttf') format('truetype'); /* Locate the .ttf file within your directory */
+}
+
+* {
+  font-family: 'Avenir', sans-serif;
+}
+
 @media (max-width: 1120px) {}
 
 @media (max-width: 992px) {
@@ -106,13 +115,11 @@
 
 
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-link.nav-link:hover {
-  -webkit-transition: all .3s ease;
-  -moz-transition: all  .3s ease;
-  -o-transition: all  .3s ease;
-  transition: all  .3s ease;
-  padding: 10px 20px;
+  -webkit-transition: background-color .3s ease;
+  -moz-transition: background-color  .3s ease;
+  -o-transition: background-color  .3s ease;
+  transition: background-color  .3s ease;
   background-color: #3d286b;
-  opacity:100%;
   color: white;
   text-align: center;
   text-transform: uppercase;
@@ -136,36 +143,42 @@
 }
 
 .dropdown_content {
-  -webkit-transition: all .3s ease;
-  -moz-transition: all  .3s ease;
-  -o-transition: all  .3s ease;
-  transition: all  .3s ease;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
   opacity: 0;
-  height:0;
+  max-height: 0;
+  overflow: hidden;
   font-size: 18px;
-  max-width: 824px;
+  transform-origin: top;
+  transform: scaleY(0);
+  width: 100%;
+  max-width: inherit;
+  box-sizing: border-box;
 }
 
 .hover_drop {
   position: relative;
+  max-width: 824px;
+  width: 100%;
 }
 
 .hover_drop:hover .dropdown_content {
   display: block;
-  -webkit-transition: all .3s ease;
-  -moz-transition: all  .3s ease;
-  -o-transition: all  .3s ease;
-  transition: all  .3s ease;
-  align:center;
-  background-color: #e0895d;
-  color:white;
+  -webkit-transition: all .25s ease-in-out;
+  -moz-transition: all .25s ease-in-out;
+  -o-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
+  align: center;
+  background-color: var(--accent-color);
+  color: white;
   opacity: 1;
-  height: auto;
-  padding: 20px;
-  padding-left: 30px;
-
+  max-height: 1000px;
+  padding: 1.5rem;
+  transform: scaleY(1);
+  width: 100%;
 }
-
 
 .preHover:hover + .hide{
   -webkit-transition: all .3s ease;
@@ -187,7 +200,7 @@
   -moz-transition: all  .3s ease;
   -o-transition: all  .3s ease;
   transition: all  .3s ease;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Avenir', sans-serif;
   width:100%;
   position:fixed;
   background-color: #F3E6D5;
