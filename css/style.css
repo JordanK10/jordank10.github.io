@@ -374,16 +374,18 @@ transition: all  .3s ease-in-out;
 
 .about_img-box {
   display: flex;
-  justify-content: center;  /* Center horizontally */
+  justify-content: center;
   align-items: center;
   height: 100%;
-  padding: 0 15%;  /* Add horizontal padding to constrain width */
+  overflow: hidden;  /* Hide overflow */
+  position: relative;  /* Keep container relative */
 }
 
 .about_img-box img {
-  width: 100%;  /* Fill the padded container width */
-  height: auto;
-  display: block;
+  width: 100%;  /* Make image fill width */
+  height: 100%;  /* Make image fill height */
+  object-fit: cover;  /* Maintain aspect ratio while filling */
+  object-position: center;  /* Center the image */
 }
 
 .about_detail-box em {
