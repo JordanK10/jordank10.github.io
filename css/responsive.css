@@ -1,10 +1,15 @@
 @font-face {
-  font-family: 'Avenir'; /* Name your font family */
-  src: url('av/avl/avl.ttf') format('truetype'); /* Locate the .ttf file within your directory */
+  font-family: 'Avenir', 'Helvetica Neue', sans-serif;
+  src: url('av/avl/avl.ttf') format('truetype'),
+       url('av/avl/avl.woff2') format('woff2'),
+       url('av/avl/avl.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 * {
-  font-family: 'Avenir', sans-serif;
+  font-family: var(--font-stack);
 }
 
 @media (max-width: 1120px) {}
@@ -143,10 +148,10 @@
 }
 
 .dropdown_content {
-  -webkit-transition: all .5s ease-in-out;
-  -moz-transition: all .5s ease-in-out;
-  -o-transition: all .5s ease-in-out;
-  transition: all .5s ease-in-out;
+  -webkit-transition: all .25s ease-in-out;
+  -moz-transition: all .25s ease-in-out;
+  -o-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
   opacity: 0;
   max-height: 0;
   overflow: hidden;
@@ -200,7 +205,7 @@
   -moz-transition: all  .3s ease;
   -o-transition: all  .3s ease;
   transition: all  .3s ease;
-  font-family: 'Avenir', sans-serif;
+  font-family: var(--font-stack);
   width:100%;
   position:fixed;
   background-color: #F3E6D5;
